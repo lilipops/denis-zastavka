@@ -53,9 +53,7 @@ div {
 .mini-block {
     display: flex;
 }
-.supercell {
-    width: 30% !important;
-}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 1vw;
