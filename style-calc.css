@@ -476,9 +476,7 @@ margin-right:50px;
 	font-weight: 600;
 	color:black ;
 }
-#pepe {
-	background-color: blue;
-}
+
 
 @media only screen and (max-width: 600px) {
 	.calc-cell {
@@ -492,21 +490,20 @@ margin-right:50px;
 	.supercell {
 		width: 30%;
 	}
-}#pepe {
-	background-color: blue;
 }
 @media only screen and (max-width: 400px) {
 	.calc-cell {
 		width: 20% ;
 		margin-right: 5px ;
-		margin-left: 2px;
+	
 	}
 	.calc-cell input{
 		font-weight: 300;
 	
 	}
-	#pepe {
-		background-color: blue;
+	.supercell {
+		margin-left: 2%;
 	}
+
 }
 
