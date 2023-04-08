@@ -12,7 +12,8 @@
 	<link href="style-calc.css" media="all" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="styles.css">
-
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="footer.css">
     
     <script type="text/javascript">
 
@@ -43,7 +44,9 @@
     
     
     </head><body>
-
+		<div class="topnav" id="myTopnav" style="font-family: 'Poppins', sans-serif;">
+			<a href="index.html" class="active "><img src="construccionesfiableslogo.jpeg" alt=""></a>
+		  </div>
 		<!--end customers menu-->
 
 
@@ -99,7 +102,7 @@
         <div class="row rowleft fullstrechmobile" style="width: 100%;" id="itemrow-0-76">
             <input type="hidden" value="199" name="search" id="search-0-76"/>
             
-            <div class="a"><input type="checkbox" style="display:block !important;" id="checkbox-0-76"></div>
+            <div class="a"><input type="checkbox" style="display:none !important;" id="checkbox-0-76"></div>
             <div class="b">
             <input type="hidden" value="" id="line-0-76">
             <input type="hidden" value="0" id="subitem-0-76">
@@ -140,7 +143,7 @@
     
                 <div class="calc-cell" style="width: 15%;">
 			
-					<input style="width: 100%;" type="text" class="quantity" name="price-0-935" id="price-0-935" readonly />
+					<input style="width: 100%;border-bottom: 1px solid grey;padding-bottom: 1px;" type="text" placeholder="&euro;" class="quantity" name="price-0-935" id="price-0-935" readonly />
                     
 				</div>
     
@@ -151,7 +154,7 @@
                 </div>
                 
                 <div id="pepe" class="d calc-cell">
-                <input type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-935" id="amount-0-935" onkeyup="calculateLine(0,935);"  style="width:80%;"><br />
+                <input  type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-935" id="amount-0-935" onkeyup="calculateLine(0,935);"  style="width:80%;"><br />
                 </div>
     
     
@@ -168,7 +171,7 @@
                 <input type="hidden" value="76" id="subitem-0-932">
     
                 <div class="calc-cell" style="width: 15%;">
-					<input type="text" style="width: 100%;" class="quantity" name="price-0-932" id="price-0-932" readonly /><br />
+					<input type="text" style="width: 100%;border-bottom: 1px solid grey;padding-bottom: 1px;"  placeholder="&euro;"  class="quantity" name="price-0-932" id="price-0-932" readonly /><br />
                     </div>
     
                 <div class=" calc-cell " style="width: 25%;">
@@ -180,7 +183,7 @@
                 </div>
                 
                 <div class="d calc-cell" >
-					<input placeholder="cm" type="text" class="quantity" inputmode="decimal" name="amount-0-932" id="amount-0-932" onkeyup="calculateLine(0,932);" style="width: 80%;"><br />
+					<input  placeholder="cm" type="text" class="quantity" inputmode="decimal" name="amount-0-932" id="amount-0-932" onkeyup="calculateLine(0,932);" style="width: 80%;"><br />
                 </div>
     
     
@@ -198,7 +201,7 @@
                 <input type="hidden" value="76" id="subitem-0-933">
     
                 <div class="calc-cell" style="width: 15%;">
-					<input style="width: 100%;" type="text" class="quantity" name="price-0-933" id="price-0-933" readonly /><br />
+					<input style="width: 100%;border-bottom: 1px solid grey;padding-bottom: 1px;" type="text" placeholder="&euro;" class="quantity" name="price-0-933" id="price-0-933" readonly /><br />
                     </div>
     
                 <div class=" calc-cell" style="width: 25%;">
@@ -209,7 +212,7 @@
                 </div>
                 
                 <div class="d calc-cell" >
-					<input type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-933" id="amount-0-933" onkeyup="calculateLine(0,933);" style="width: 80%;"><br />
+					<input  type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-933" id="amount-0-933" onkeyup="calculateLine(0,933);" style="width: 80%;"><br />
                 </div>
     
     
@@ -226,7 +229,7 @@
                 <input type="hidden" value="76" id="subitem-0-934">
     
                 <div class="calc-cell" style="width: 15%;">
-					<input style="width: 100%;" type="text" class="quantity" name="price-0-934" id="price-0-934" readonly /><br />
+					<input style="width: 100%;border-bottom: 1px solid grey;padding-bottom: 1px;"  placeholder="&euro;" type="text" class="quantity" name="price-0-934" id="price-0-934" readonly /><br />
                     </div>
     
                 <div class=" calc-cell " style="width: 25%;">
@@ -237,7 +240,7 @@
                 </div>
                 
                 <div class="d calc-cell">
-					<input type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-934" id="amount-0-934" onkeyup="calculateLine(0,934);" style="width:80%;"><br />
+					<input   type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-934" id="amount-0-934" onkeyup="calculateLine(0,934);" style="width:80%;"><br />
                 </div>
     
     
@@ -295,7 +298,7 @@
                 <input type="hidden" value="883" id="subitem-0-922">
     
                 <div class="calc-cell" style="width: 15%;">
-					<input type="text" style="width:100%;"  class="quantity" name="price-0-922"  id="price-0-922" readonly /><br />
+					<input type="text" style="width:100%;border-bottom: 1px solid grey;padding-bottom: 1px;"  placeholder="&euro;" class="quantity" name="price-0-922"  id="price-0-922" readonly /><br />
                   </div>
     
                 <div class="supercell calc-cell " style="width: 25%;">
@@ -304,7 +307,8 @@
                     <input style="width:auto !important;" type="hidden" id="unit-0-922" value="lm" />
                 </div>
                 
-                <div  class="d calc-cell" style="margin-right: 15px;"><input type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-922" id="amount-0-922" onkeyup="calculateLine(0,922)" style="width: 80%;"><br/>
+                <div  class="d calc-cell" style="margin-right: 15px;">
+					<input  type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-922" id="amount-0-922" onkeyup="calculateLine(0,922)" style="width: 80%;"><br/>
                 </div>
     
     
@@ -321,7 +325,7 @@
                 <input type="hidden" value="883" id="subitem-0-923">
     
                 <div class="calc-cell" style="width: 15%;">
-					<input type="text" style="width:100%;" class="quantity" name="price-0-923" id="price-0-923" readonly /><br />
+					<input type="text" style="width:100%;border-bottom: 1px solid grey;padding-bottom: 1px;" placeholder="&euro;" class="quantity" name="price-0-923" id="price-0-923" readonly /><br />
                     </div>
     
                 <div class="supercell calc-cell " style="width: 25%;">
@@ -344,7 +348,7 @@
                 <input type="hidden" value="883" id="subitem-0-924">
     
                 <div class="calc-cell"  style="width: 15%;">
-					<input type="text" style="width:100%;" class="quantity" name="price-0-924" id="price-0-924" readonly /><br />
+					<input type="text" style="width:100%;border-bottom: 1px solid grey;padding-bottom: 1px;"  placeholder="&euro;" class="quantity" name="price-0-924" id="price-0-924" readonly /><br />
                     </div>
     
                 <div class="supercell calc-cell " style="width: 25%;">
@@ -356,7 +360,7 @@
                 </div>
                 
                 <div class="d calc-cell" style="margin-right: 15px;">
-					<input type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-924" id="amount-0-924" onkeyup="calculateLine(0,924);" style="width: 80%;"><br />
+					<input  type="text" placeholder="cm" class="quantity" inputmode="decimal" name="amount-0-924" id="amount-0-924" onkeyup="calculateLine(0,924);" style="width: 80%;"><br />
                 </div>
     
     
@@ -366,13 +370,13 @@
         </div>
         </div>
         </div>
-        <div class="container">
+      
             <div class="row-alltogether">
                 <div style="float: left;width: 100%;margin-left: 5%;">
                 <b style="float: left;">TOTAL:</b>
-                <input style="width: 50%;text-align: right;float: right;right: 15%;" class="calculatorbuttonsend quantity fullstrechmobile" type="text" name="fullprice" id="fullprice" readonly />
+                <input style="width: 50%;text-align: right;float: right;right: 15%;" placeholder="&euro;" class="calculatorbuttonsend quantity fullstrechmobile" type="text" name="fullprice" id="fullprice" readonly />
                 </div>
-        </div>
+ 
             
             
         
@@ -381,7 +385,6 @@
     
     </div>
 </div>
-
 
 
 <script type="text/javascript">
@@ -534,6 +537,9 @@
 		if (!isNaN(amount.value) && !isNaN(ppunit.value))
 		{
 			price.value=Math.round(parseFloat(ppunit.value)*parseFloat(amount.value)) + ' \u20AC';
+			
+
+			//border-bottom: 1.5px solid orange;padding-bottom: 1px;
 			document.getElementById('checkbox-'+projectId+'-'+num).checked=true;
 			if(subitem>0) {
 				document.getElementById('checkbox-'+projectId+'-'+subitem).checked=true;
@@ -775,6 +781,25 @@
  
 
 
+ <footer style="height: 0px;">
+    <div class="footer">
+    
+    
+    <div class="footer_row" style="font-size: 1em;">
+    <ul>
+    <li><a href="index.html">Main</a></li>
+    <li><a href="perforacionycorteenhormigonarmado.html">Calculator</a></li>
+    <li><a href="mailto:info@construccionesfiables.es">Contact us</a></li>
+    
+    </ul>
+    </div>
+    
+    <div class="footer_row">
+    
+      Copyright © 2023 - All rights reserved || Construcciones Fiables
+    </div>
+    </div>
+    </footer>
 
 
 <div class="popup3" id="login-drop"></div>

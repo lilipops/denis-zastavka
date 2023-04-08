@@ -8939,19 +8939,9 @@ li.registration1 {
     line-height: 1.1rem !important
 }
 
-.footer ul {
-    list-style: none;
-    width: 180px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 0;
-    margin-left: 1%;
-    text-align: left;
-    margin-bottom: 5px
-}
+
 
 .footer li {
-    font-size: .7rem !important;
     text-align: left;
     color: silver
 }
